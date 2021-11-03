@@ -1,0 +1,52 @@
+/** criando variaveis do css*/
+:root{
+    --vermelho: #e50914;
+    --preto: #141414;
+
+}
+/** resetando as formatações padrão da pagina html*/
+*{
+    margin: 0%;
+    bottom: 0%;
+    box-sizing: border-box;
+}
+/** definindo a cor de fundo e tipo da fonte do documento*/
+body{
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+/**definindo as propriedades do logo*/
+header .conteiner{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-between;
+
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: arial black , Times, serif ;
+    font-size: 40px;    
+}
+/** definindo as propriedades dos menus */
+header nav a {  
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+
+}
+header nav a:hover{
+    color: #ffff;
+}
+
+/*=== propriedades do filme principal ===*/
+
+.filmePrincipal{
+    font-size: 16px;    
+    background: url(/Resources/recursosBaixados/netflix-clone-master/img/capa-house.jpg);    
+    background-size: cover;        
+    height: 400px;
+}
