@@ -13,7 +13,7 @@
 /** definindo a cor de fundo e tipo da fonte do documento*/
 body{
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial',Times New Roman, Times, serif;
     color: white;
 }
 /**definindo as propriedades do logo*/
@@ -87,4 +87,25 @@ header nav a:hover{
 
 .botao i{
     margin-right: 10px;
+}
+
+.conteiner{
+    margin-left: 30px;
+}
+
+.filmePrincipal .conteiner{
+    width: 65%;
+}
+
+
+/*=== criando a classe com o tamanho das imagens de filmes do carrocel ===*/
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrocelFilmes{
+    margin-top: 5px;
 }
